@@ -1,0 +1,115 @@
+AutoGen Definitions dummy;
+file = {
+  file-id   = 'main_8c';
+  file-name = 'main.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/main.c';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/main.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'print_numbers_reversed_8c';
+  file-name = 'printNumbersReversed.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'print_numbers_reversed_8c_1a395e3e5ac413bc77f0cfb1bfed8fc2d9';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'printInputReversed';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'number';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/printNumbersReversed.c';
+      func-mem-desc-line = '10';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+function takes input of n numbers to a list and prints them in reverse order
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@warning the parameter number is a positive number
+
+@param number Refers to the amount of numbers that will be taken from user input
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/printNumbersReversed.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+contains the implementation to printInputReversed function
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Elazar Kolom
+@date 8/31/21
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'print_numbers_reversed_8h';
+  file-name = 'printNumbersReversed.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'print_numbers_reversed_8h_1a395e3e5ac413bc77f0cfb1bfed8fc2d9';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'printInputReversed';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'number';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/printNumbersReversed.h';
+      func-mem-desc-line = '19';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+function takes input of n numbers to a list and prints them in reverse order
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@warning the parameter number is a positive number
+
+@param number Refers to the amount of numbers that will be taken from user input
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/Users/Ekolom/Desktop/CS Notes/C Seminar/Exercise 6/Ex06.01/Ex06.01/printNumbersReversed.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+contains printNumbersReversed function declaration
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Elazar Kolom
+@date 8/31/21
+_EnD_oF_dEf_TeXt_;
+}; /* file */
